@@ -6,7 +6,6 @@ require_once("config.php");
 // $usuario = new Usuario();
 // $id = $usuario->loadById('1');
 
-
 // Carrega todos os usuários
 //$lista = Usuario::getList();
 //echo json_encode($lista);
