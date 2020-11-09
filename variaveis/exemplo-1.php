@@ -1,22 +1,5 @@
 <?php
 
-define("SERVIDOR", "127.0.0.1");
-
-
-$teste = array(
-	array(
-		'nome'=>'Matheus'
-	)
-);
-
-$dt = new DateTime();
-//echo $dt->format('d/m/Y H:i:s');
-//echo "</br>";
-
-$periodo = new DateInterval("P15D");
-
-$dt->add($periodo);
-//echo $dt->format('d/m/Y H:i:s');
 
 class Pessoa {
 	public $nome;
@@ -151,7 +134,7 @@ class Endereco {
 
 $novoEndereco = new Endereco("Rua 2", "L23", "Brasilia");
 
-class Pessoo {
+class Pessoas {
 	public $nome = "Rasmus Lerdorf";
 	protected $idade = 48;
 	private $senha = "123456";
@@ -163,7 +146,7 @@ class Pessoo {
 	}
 }
 
-class Programador extends Pessoo {
+class Programador extends Pessoas {
 	public function verDados(){
 
 		echo get_class($this) . "<br/>";
